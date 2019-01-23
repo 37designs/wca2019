@@ -306,7 +306,6 @@ h1.entry-title {
 
 .wca-home-section {
 	padding: 100px 0;
-	text-align: center;
 }
 
 .wca-home-section h2 {
@@ -314,6 +313,7 @@ h1.entry-title {
 	margin-bottom: 30px;
 	margin-top: 0;
 	font-size: 42px;
+	text-align: center;
 }
 
 /*
@@ -383,7 +383,7 @@ h1.entry-title {
 }
 
 .wca-homepage-tiles:hover li {
-	filter: blur(20px);
+	filter: blur(5px);
 }
 
 .wca-homepage-tiles li a {

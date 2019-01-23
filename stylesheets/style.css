@@ -347,15 +347,15 @@ h1.entry-title {
 /* line 307, ../sass/style.scss */
 .wca-home-section {
   padding: 100px 0;
-  text-align: center;
 }
 
-/* line 312, ../sass/style.scss */
+/* line 311, ../sass/style.scss */
 .wca-home-section h2 {
   font-variant: small-caps;
   margin-bottom: 30px;
   margin-top: 0;
   font-size: 42px;
+  text-align: center;
 }
 
 /*
@@ -430,7 +430,7 @@ h1.entry-title {
 
 /* line 385, ../sass/style.scss */
 .wca-homepage-tiles:hover li {
-  filter: blur(20px);
+  filter: blur(5px);
 }
 
 /* line 389, ../sass/style.scss */
