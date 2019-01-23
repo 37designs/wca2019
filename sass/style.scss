@@ -106,11 +106,33 @@ hr {
 	background: url('https://2019.annarbor.wordcamp.org/files/2019/01/hero-banner.jpg');
 	background-size: cover;
 	min-height: 440px;
-
 	padding-top: 100px;
 	box-sizing: border-box;
 	position: relative;
-
+	h1 {
+		position: relative;
+		z-index: 5;
+	}
+	&::before {
+		content: '';
+		display: block;
+		position: absolute;
+		left: 0;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		background: rgba(#80bca3, 0.5);
+	}
+	&::after {
+		content: '';
+		display: block;
+		position: absolute;
+		left: 0;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		background: rgba( 0,0,0, 0.5);
+	}
 	@media screen and (max-width: 600px) {
 		padding-top: 0;
 
@@ -124,7 +146,6 @@ hr {
 		}
 
 	}
-
 }
 
 
@@ -506,7 +527,7 @@ body.single-wcb_sponsor .attachment-post-thumbnail {
 }
 
 #colophon {
-	background: url('https://2016.annarbor.wordcamp.org/files/2016/02/wordcamp-ann-arbor-sponsors.jpg');
+	background: url('https://2019.annarbor.wordcamp.org/files/2019/01/ann-arbor-city-skyline.jpg');
 	background-size: cover;
 	margin-top: -24px;
 	text-align: center;
