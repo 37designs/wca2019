@@ -332,10 +332,11 @@ h1.entry-title {
 .wca-homepage-tiles {
 	min-height: 200px;
 	height: 40vh;
-	background: $secondary;
+	background: $primary;
 	background-size: cover;
 	padding-top: 0 !important;
 	padding-bottom: 0 !important;
+	overflow: hidden;
 	@media screen and (max-width: 600px) {
 
 	}
