@@ -16,8 +16,12 @@ h1,h2,h3,h4,h5,h6,p,li,td, blockquote, div {
 	font-family: 'Raleway', Helvetica, Arial, sans-serif;
 }
 
+h1,h2,h3,h4,h5,h6 {
+	color: $primary;
+}
+
 a {
-	color: #2978b1;
+	color: $primary;
 	transition: all .5s ease;
 }
 
@@ -138,7 +142,7 @@ hr {
 }
 
 h1.site-title {
-	background: url('https://2019.annarbor.wordcamp.org/files/2019/01/wca2-placeholder-logo.png.png') 50% 0 no-repeat;;
+	background: url('https://2019.annarbor.wordcamp.org/files/2019/01/wca2-placeholder-logo.png') 50% 0 no-repeat;;
 	width: 450px;
 	height: 239px;
 	display: block;
@@ -178,7 +182,6 @@ body.home .edit-link {
 }
 
 .main-navigation {
-	background: $secondary;
 	background: rgba(0,0,0,.4);
 	text-align: center;
 	position: absolute;
@@ -220,7 +223,7 @@ body.home .edit-link {
 }
 
 .main-navigation .sub-menu {
-	background: $primary;
+	background: $secondary;
 	margin-top: 0;
 	top: 53px;
 	padding: 0;
@@ -315,7 +318,7 @@ h1.entry-title {
 .wca-homepage-tiles {
 	min-height: 200px;
 	height: 25vh;
-	background: url('files/2017/04/tile-bg-1.jpg');
+	background: url('https://2017.annarbor.wordcamp.org/files/2017/04/tile-bg-1.jpg');
 	background-size: cover;
 	padding-top: 0 !important;
 	padding-bottom: 0 !important;
@@ -404,23 +407,23 @@ h1.entry-title {
 }
 
 .wci-when {
-	background: url('/files/2016/02/icon-when-where.png');
+	background: url('https://2017.annarbor.wordcamp.org/files/2016/02/icon-when-where.png');
 }
 
 .wci-speakers {
-	background: url('/files/2016/02/icon-speakers.png');
+	background: url('https://2017.annarbor.wordcamp.org/files/2016/02/icon-speakers.png');
 }
 
 .wci-sponsors {
-	background: url('/files/2016/02/icon-sponsors.png');
+	background: url('https://2017.annarbor.wordcamp.org/files/2016/02/icon-sponsors.png');
 }
 
 .wci-volunteers {
-	background: url('/files/2016/02/icon-volunteer.png');
+	background: url('https://2017.annarbor.wordcamp.org/files/2016/02/icon-volunteer.png');
 }
 
 .wci-tickets {
-	background: url('/files/2016/06/icon-tickets.png');
+	background: url('https://2017.annarbor.wordcamp.org/files/2016/06/icon-tickets.png');
 }
 
 #secondary {
