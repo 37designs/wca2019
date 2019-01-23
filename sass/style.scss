@@ -103,7 +103,7 @@ hr {
 }
 
 #masthead {
-	background: url('/files/2017/04/wca2-2017-masthead.jpg');
+	background: url('https://2019.annarbor.wordcamp.org/files/2019/01/hero-banner.jpg');
 	background-size: cover;
 	min-height: 440px;
 
@@ -142,8 +142,9 @@ hr {
 }
 
 h1.site-title {
-	background: url('https://2019.annarbor.wordcamp.org/files/2019/01/wca2-placeholder-logo.png') 50% 0 no-repeat;;
+	background: url('https://2019.annarbor.wordcamp.org/files/2019/01/wca2-placeholder-logo.png') no-repeat;;
 	width: 450px;
+	background-size: contain;
 	height: 239px;
 	display: block;
 	text-indent: 100%;
@@ -317,8 +318,8 @@ h1.entry-title {
 
 .wca-homepage-tiles {
 	min-height: 200px;
-	height: 25vh;
-	background: url('https://2017.annarbor.wordcamp.org/files/2017/04/tile-bg-1.jpg');
+	height: 40vh;
+	background: url('https://2017.annarbor.wordcamp.org/files/2017/04/tile-bg-1.jpg') center center;
 	background-size: cover;
 	padding-top: 0 !important;
 	padding-bottom: 0 !important;
