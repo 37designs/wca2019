@@ -5,15 +5,14 @@ Welcome to Custom CSS!
 To learn how this works, see http://wp.me/PEmnE-Bt
 */
 
+ @import url('https://fonts.googleapis.com/css?family=Aleo');
 
 $primary: #bf4d28;
 $secondary: #80bca3;
 
-
-
 h1,h2,h3,h4,h5,h6,p,li,td, blockquote, div {
 	color: #302823;
-	font-family: 'Raleway', Helvetica, Arial, sans-serif;
+	font-family: 'Aleo', Georgia, Helvetica, Arial, sans-serif;
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -176,14 +175,11 @@ h1.site-title {
 .site-description {
 	color: #fff;
 	font-style: normal;
-	text-align: center;
+	text-align: right;
 	font-size: 28px;
 	margin: 0;
-	max-width: 500px;
+	max-width: 450px;
 	line-height: 1.1em;
-	padding-top: 20px;
-	border-top: 1px solid rgba(255, 255, 255, .5);
-
 	@media screen and (max-width: 600px) {
 		font-size: 22px;
 	}
