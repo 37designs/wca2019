@@ -493,7 +493,7 @@ h1.entry-title {
 
 #colophon {
     position: relative;
-    margin-top: 150px;
+    margin-top: 250px;
     &::before {
         content: '';
         position: absolute;
@@ -501,7 +501,7 @@ h1.entry-title {
         right: 0;
         top: 0;
         height: 100px;
-        margin-top: -50px;
+        margin-top: -100px;
         background: url('https://upperatmos.com/wca2/aqua-overlay.svg') top center;
         background-size: cover;
     }
