@@ -309,9 +309,9 @@ h1.entry-title {
             display: block;
             transform: translateY(10px);
             content: '';
-            height: 10px;
+            height: 20px;
             width: 200px;
-            background: url('https://api.github.com/repos/37designs/wca2019/contents/typographic-spacer.svg') center center no-repeat;
+            background: url('https://upperatmos.com/wca2/typographic-spacer.svg') center center no-repeat;
             background-size: contain;
             margin: 0 auto 30px auto;
         }
@@ -448,15 +448,15 @@ h1.entry-title {
 }
 
 #masthead {
-    &::after {
+    &::before {
         position: absolute;
-        bottom: -100px;
+        bottom: -50px;
         height: 100px;
         content: '';
         display: block;
         left: 0;
         right: 0;
-        background: url('https://api.github.com/repos/37designs/wca2019/contents/img/white-overlay.svg') top center;
+        background: url('https://upperatmos.com/wca2/white-overlay.svg') top center;
         background-size: contain;
     }
 }
@@ -470,8 +470,8 @@ h1.entry-title {
         left: 0;
         right: 0;
         height: 100px;
-        margin-top: -100px;
-        background: url('https://api.github.com/repos/37designs/wca2019/contents/img/aqua-overlay.svg') top center;
+        margin-top: -50px;
+        background: url('https://upperatmos.com/wca2/aqua-overlay.svg') top center;
         background-size: contain;
     }
 }
