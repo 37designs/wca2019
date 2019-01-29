@@ -307,9 +307,9 @@ h1.entry-title {
         position: relative;
         &::after {
             display: block;
-            transform: translateY(10px);
+            transform: translateY(18px);
             content: '';
-            height: 20px;
+            height: 25px;
             width: 200px;
             background: url('https://upperatmos.com/wca2/typographic-spacer.svg') center center no-repeat;
             background-size: contain;
@@ -455,9 +455,10 @@ h1.entry-title {
         content: '';
         display: block;
         left: 0;
+        z-index: 101;
         right: 0;
         background: url('https://upperatmos.com/wca2/white-overlay.svg') top center;
-        background-size: contain;
+        background-size: cover;
     }
 }
 
@@ -472,7 +473,7 @@ h1.entry-title {
         height: 100px;
         margin-top: -50px;
         background: url('https://upperatmos.com/wca2/aqua-overlay.svg') top center;
-        background-size: contain;
+        background-size: cover;
     }
 }
 
