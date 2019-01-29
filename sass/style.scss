@@ -152,7 +152,7 @@ hr {
 }
 
 h1.site-title {
-	background: url('https://2019.annarbor.wordcamp.org/files/2019/01/wca2-placeholder-logo.png') no-repeat;;
+	background: url('https://2019.annarbor.wordcamp.org/files/2019/01/WCA2-2019-logo-simplified.png') no-repeat;;
 	width: 450px;
 	background-size: contain;
 	height: 239px;
@@ -302,6 +302,20 @@ h1.entry-title {
 
 .wca-home-introduction {
 	padding-top: 75px !important;
+    h2 {
+        margin-bottom: 50px;
+        position: relative;
+        &::after {
+            display: block;
+            transform: translateY(10px);
+            content: '';
+            height: 10px;
+            width: 200px;
+            background: url('https://api.github.com/repos/37designs/wca2019/contents/typographic-spacer.svg') center center no-repeat;
+            background-size: contain;
+            margin: 0 auto 30px auto;
+        }
+    }
 }
 
 .wca-home-section {
@@ -431,6 +445,35 @@ h1.entry-title {
 
 .wci-tickets {
 	background: url('https://2017.annarbor.wordcamp.org/files/2016/06/icon-tickets.png');
+}
+
+#masthead {
+    &::after {
+        position: absolute;
+        bottom: -100px;
+        height: 100px;
+        content: '';
+        display: block;
+        left: 0;
+        right: 0;
+        background: url('https://api.github.com/repos/37designs/wca2019/contents/img/white-overlay.svg') top center;
+        background-size: contain;
+    }
+}
+
+.wca-homepage-tiles {
+    margin-top: 150px;
+    position: relative;
+    &::before {
+        content: '';
+        position: absolute;
+        left: 0;
+        right: 0;
+        height: 100px;
+        margin-top: -100px;
+        background: url('https://api.github.com/repos/37designs/wca2019/contents/img/aqua-overlay.svg') top center;
+        background-size: contain;
+    }
 }
 
 #secondary {
