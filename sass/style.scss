@@ -263,11 +263,10 @@ body.home .edit-link {
 
 #content {
 	max-width: 720px;
-	margin: -20px auto;
+	margin: 20px auto;
 	padding: 20px 1em;
 	position: relative;
 	z-index: 6;
-	background: rgba(#fff, .9);
 }
 
 img.alignnone,
@@ -315,6 +314,21 @@ h1.entry-title {
             background-size: contain;
             margin: 0 auto 30px auto;
         }
+    }
+}
+
+h1.entry-title {
+    margin-bottom: 50px;
+    position: relative;
+    &::after {
+        display: block;
+        transform: translateY(18px);
+        content: '';
+        height: 25px;
+        width: 200px;
+        background: url('https://upperatmos.com/wca2/typographic-spacer.svg') center center no-repeat;
+        background-size: contain;
+        margin: 0 auto 30px auto;
     }
 }
 
@@ -475,6 +489,25 @@ h1.entry-title {
         background: url('https://upperatmos.com/wca2/aqua-overlay.svg') top center;
         background-size: cover;
     }
+}
+
+#colophon {
+    position: relative;
+    margin-top: 150px;
+    &::before {
+        content: '';
+        position: absolute;
+        left: 0;
+        right: 0;
+        height: 100px;
+        margin-top: -50px;
+        background: url('https://upperatmos.com/wca2/aqua-overlay.svg') top center;
+        background-size: cover;
+    }
+}
+
+body.home #colophon::before {
+    display: none;
 }
 
 #secondary {
