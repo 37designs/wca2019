@@ -1540,9 +1540,9 @@ td.wcb-track-designer {
     height: 100vh;
     overflow: auto;
     padding: 1em 0;
-    .sub-menu {
-      display:none;
-    }
+  }
+  ul.sub-menu {
+    display: none;
   }
   .main-small-navigation #menu-main li li a {
     font-weight: normal;
