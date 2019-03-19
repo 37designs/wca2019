@@ -1528,6 +1528,11 @@ td.wcb-track-designer {
     text-decoration: none;
     font-weight: bold;
   }
+  .main-small-navigation #menu-main-menu {
+    height: 100vh;
+    overflow: auto;
+    padding: 1em 0;
+  }
   .main-small-navigation #menu-main li li a {
     font-weight: normal;
   }
