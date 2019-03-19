@@ -618,6 +618,13 @@ body.single-wcb_sponsor .attachment-post-thumbnail {
   letter-spacing: 2px;
 }
 
+@media (max-width: 640px) {
+  .site-info a {
+    display: block;
+    padding: 1em;
+  }
+}
+
 .site-info {
   padding: 50px 0;
   margin-top: 50px;

@@ -10,6 +10,43 @@ To learn how this works, see http://wp.me/PEmnE-Bt
 $primary: #bf4d28;
 $secondary: #80bca3;
 
+
+$tablet-width: 768px;
+$max-width: 1170px;
+
+@mixin for-small-desktop {
+  @media (max-width: 1280px) {
+    @content;
+  }
+}
+
+@mixin for-laptop {
+  @media (max-width: 1024px) {
+    @content;
+  }
+}
+
+
+@mixin for-tablet {
+  @media (max-width: 768px) {
+    @content;
+  }
+}
+
+@mixin for-phone {
+  @media (max-width: 640px) {
+    @content;
+  }
+}
+
+
+
+@mixin for-mobile-admin-bar {
+  @media (max-width: 782px) {
+    @content;
+  }
+}
+
 h1,h2,h3,h4,h5,h6,p,li,td, blockquote, div {
 	color: #302823;
 	font-family: 'Aleo', Georgia, Helvetica, Arial, sans-serif;
@@ -612,6 +649,10 @@ body.single-wcb_sponsor .attachment-post-thumbnail {
 	text-transform: uppercase;
 	font-size: 12px;
 	letter-spacing: 2px;
+	@include for-phone {
+		display:block;
+		padding:1em;
+	}
 }
 
 .site-info {
