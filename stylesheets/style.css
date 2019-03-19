@@ -1527,6 +1527,14 @@ td.wcb-track-designer {
     font-size: 16px;
     text-decoration: none;
     font-weight: bold;
+    display: block;
+    padding: 0.5em 0;
+    background: white;
+    margin-bottom: 0.5em;
+    color: #bf4d28;
+  }
+  .main-small-navigation a:focus, .main-small-navigation a:active {
+    color: #80bca3;
   }
   .main-small-navigation #menu-main-menu {
     height: 100vh;
