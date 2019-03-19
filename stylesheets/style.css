@@ -489,10 +489,10 @@ h1.entry-title::after {
   position: absolute;
   left: 0;
   right: 0;
-  height: 100px;
+  height: 150px;
   margin-top: -100px;
   background: url("https://upperatmos.com/wca2/aqua-overlay.svg") top center;
-  background-size: cover;
+  background-size: auto 100%;
 }
 
 #colophon {
