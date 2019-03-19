@@ -24,6 +24,7 @@ a {
 	transition: all .5s ease;
 }
 
+
 .btn {
 	display: inline-block;
 	padding: 5px 25px;
@@ -131,7 +132,8 @@ hr {
 		.main-small-navigation {
 			bottom: auto;
 			position: relative;
-			z-index: 99;
+			z-index: 999;
+			overflow:auto;
 		}
 
 	}
