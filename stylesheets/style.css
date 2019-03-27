@@ -1541,8 +1541,12 @@ td.wcb-track-designer {
     overflow: auto;
     padding: 1em 0;
   }
-  ul.sub-menu {
-    display: none;
+  ul.sub-menu li a {
+    background-color: #efefef;
+    border-bottom: 1px solid white;
+  }
+  ul.sub-menu li {
+    margin-bottom: 0;
   }
   .main-small-navigation #menu-main li li a {
     font-weight: normal;
