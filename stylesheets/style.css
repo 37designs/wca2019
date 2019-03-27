@@ -567,7 +567,7 @@ body.single-wcb_sponsor .attachment-post-thumbnail {
 
 .sponsor-logo {
   margin: 20px 0;
-  padding: 10px 25px;
+  padding: 10px 45px;
   display: block;
 }
 
@@ -1607,6 +1607,9 @@ tr.wcpt-time-245pm td.wcpt-time:after {
     margin: 0;
     width: 100%;
     height: auto;
+  }
+  .wcorg-organizer {
+    width: 50%;
   }
 }
 
