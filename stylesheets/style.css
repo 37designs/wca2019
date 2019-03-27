@@ -1521,7 +1521,6 @@ td.wcb-track-designer {
   .main-small-navigation #menu-main > li {
     margin: 0 -10px;
     border-bottom: 1px solid rgba(255, 255, 255, 0.25);
-    margin-bottom: 0.5em;
   }
   .main-small-navigation a {
     color: #fff;
@@ -1535,6 +1534,9 @@ td.wcb-track-designer {
   }
   .main-small-navigation a:focus, .main-small-navigation a:active {
     color: #80bca3;
+  }
+  .main-small-navigation li {
+    margin-bottom: 0.5em;
   }
   .main-small-navigation #menu-main-menu {
     height: 100vh;
