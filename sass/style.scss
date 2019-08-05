@@ -1708,7 +1708,7 @@ td.wcb-track-designer {
 	.main-small-navigation #menu-main > li {
 		margin: 0 -10px;
 		border-bottom: 1px solid rgba(255,255,255,.25);
-		
+
 
 
 	}
@@ -1764,6 +1764,38 @@ td.wcb-track-designer {
 	}
 }
 
+.date-24 {
+    tr.wcpt-time-1030am td.wcpt-time::after,
+    tr.wcpt-time-1200pm td.wcpt-time::after,
+    tr.wcpt-time-215pm td.wcpt-time::after,
+    tr.wcpt-time-345pm td.wcpt-time::after {
+        content: 'Lightning Talk';
+        display: block;
+        font-size: 11px;
+        text-align: center;
+        font-style: italic;
+        background: transparent url('https://2016.annarbor.wordcamp.org/files/2016/09/bolt.png') no-repeat;
+        background-position: center bottom;
+        background-size: 40px;
+        height: 70px;
+    }
+}
+
+.date-25 {
+    tr.wcpt-time-1100am td.wcpt-time::after,
+    tr.wcpt-time-215pm td.wcpt-time::after {
+        content: 'Lightning Talk';
+        display: block;
+        font-size: 11px;
+        text-align: center;
+        font-style: italic;
+        background: transparent url('https://2016.annarbor.wordcamp.org/files/2016/09/bolt.png') no-repeat;
+        background-position: center bottom;
+        background-size: 40px;
+        height: 70px;
+    }
+}
+/*
 tr.wcpt-time-950am td.wcpt-time:after,
 tr.wcpt-time-1105am td.wcpt-time:after,
 tr.wcpt-time-130pm td.wcpt-time:after,
@@ -1777,7 +1809,7 @@ tr.wcpt-time-245pm td.wcpt-time:after {
 	background-position: center bottom;
 	background-size: 40px;
 	height: 70px;
-}
+} */
 
 @media screen and (max-width: 700px) {
 	tr.wcpt-time-950am td.wcpt-time:after,
